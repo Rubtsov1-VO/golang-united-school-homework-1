@@ -1,4 +1,4 @@
-module github.com/Rubtsov1-VO/golang-united-school-homework-1
+module github.com/kyokomi/emoji
 
 go 1.17
 
