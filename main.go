@@ -9,6 +9,6 @@ import (
 func main() {
 	e := emoji.Sprint(":world_map:")
 
-	fmt.Println(e, []rune(e))
+	fmt.Println("Hello," ,e , "!")
 
 }
