@@ -11,7 +11,4 @@ func main() {
 
 	fmt.Println(e, []rune(e))
 
-	for _, v := range e {
-		fmt.Printf("%[1]T %[1]v\n", v)
-	}
 }
