@@ -9,7 +9,7 @@ func GetMessage() string {
 	hello := "Hello,"
 	world := " :world_map:"
 	rendered := emoji.Sprint(hello, world)
-	rendered = rendered + "!"
+	rendered = rendered + " !"
 	return rendered
 
 }
