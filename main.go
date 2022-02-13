@@ -7,7 +7,10 @@ import (
 )
 
 func main() {
-	hello := emoji.Sprint("Hello, :world_map:!")
-	fmt.Println(hello)
+	hello := "Hello"
+	world := ":world_map:"
+	rendered := emoji.Sprint(hello,  world)
+	rendered = rendered + "!"
+	return rendered
 
 }
