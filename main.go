@@ -6,7 +6,7 @@ import (
 	"github.com/kyokomi/emoji/v2"
 )
 
-func main() {
+func main() string{
 	hello := "Hello"
 	world := ":world_map:"
 	rendered := emoji.Sprint(hello,  world)
